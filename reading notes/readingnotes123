@@ -1,0 +1,10 @@
+three key ideas
+virtualization, concurrency, persistence
+
+2: introduction to operating systems
+
+operating system in charge of making sure system operates correctly and efficiently in an easy to use manner
+virtualization: takes a physical resource , processor, memory, ram and transforms it into more general powerful and easy to use virtual form
+OS is a virtual machine
+
+2.1

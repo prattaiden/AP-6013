@@ -1,0 +1,46 @@
+computer architecture and operating systems
+systems 1
+
+high level overview of computer architecture
+operation systems
+
+operating system
+  discipline arose historically from a set of problems
+  make computer easier to use
+
+
+analog continuous set of values, digit is very specific values
+
+emacs editor
+Core dump, take memory of computer and dump it in a file
+core - memory in a system
+moore's law - computers get faster roughly every two years
+  twice as many transistors in same amount of space
+
+multiprograming - more memory available can load several jobs at once
+
+virtual memory
+integrated circuit - IC , transistors put together to do a specific job in the hardware, pre built into the IC
+
+preemptive multitasking
+  run all programs at same time , one after another switching between programs really
+
+word - one chunk of memory to store data, how many bits in it? a byte is 8 bits, a word is 32 bits 4 bytes
+
+response time and thrashing
+  - one program swapping out with a different program over and over again and not getting its work done
+os will limit number of switches
+
+Embedded systems - computer that doesn't run general purpose software
+
+cloud computing
+
+operating system
+interface between user and hardware
+simpler virtual machine interface
+hides ugly details of real hardware
+manages shared resources
+
+to do:
+lab - c programming
+reading ostep chapters 1,2,3 by wednesday

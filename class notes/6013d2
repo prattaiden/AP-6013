@@ -1,0 +1,94 @@
+CPU architecture
+
+C program
+
+name list creates list
+print list use in testing
+
+clang test.c
+  creates a.out- this is the executable
+
+computer looks at path
+  echo $PATH
+    go to run program look in dav/bin directory
+    if not look elsewhere
+    . current
+    .. pointer to previous directory
+
+linked list
+  variable represents something and pointer to the next thing
+node - piece of info, pointer to next thing
+
+C doesn't have classes, use struct
+structs are public by default
+
+tpyedef struct node
+Node;
+
+struct node {
+  int data; // <- 4 bytes INTEGER
+  struct node * next; // <- 8 bytes, 64 bits pointer
+}
+
+int main(){
+  struct node the_node;
+
+  the_node->data = 3; //arrow means follow a pointer, node isnt a pointer so cant follow it
+  - the_node.data = 3;
+  the_node.next = NULL;
+
+  Node the_node;
+
+  printf("the_node uses X bytes");
+
+  printf(" %d\n" the_node.data ); = %d is decimal , really int, %lu - unsigned long integer
+
+  return 0;
+}
+
+segmentation fault
+go into segment of memory
+operating system owns address 0
+
+Node* the_node = malloc(sizeof(Node));
+- returns address that is allocated
+
+TEST FOR THIS:
+- if (the_node == Null){
+print f ("error, malloc failed\n");
+exit(-1);
+}
+
+void print_list(Node * head){//send in the head of a list
+  while(head != NULL){
+    printf("Data: %d\n" head->data);
+    head = head->next;
+  }
+}
+
+void create_image(){
+  File fp:
+  fprintf(fp, "     o       o  \n" );
+
+
+}
+
+sorting:
+   in place or cheat?
+   copy into integer array
+   int myarray[] => [4,3,222,173]
+
+malloc
+calloc zeros out the new memory
+  dont want this because it is expensive takes a long time to zero it output
+  free pointer as opposed to delete
+
+char * name = "Aidne";
+int len = strlen(name); - figure out how long the char * string is
+C knows a string is ended when it hits zero. so 5 characters in string but uses 6 bytes for that 0 at the end
+
+
+architecture of a cpu
+
+microprocesser
+  circuits put together to perform a task
